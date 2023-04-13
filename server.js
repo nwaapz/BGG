@@ -1,7 +1,7 @@
 
 const WebSocket = require('ws')
 const wss = new WebSocket.Server({ port: 80 },()=>{
-    console.log('server 4 started on 80')
+    console.log('io server 4 started on 80')
 })
 
 
